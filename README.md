@@ -47,14 +47,16 @@ Github Repo를 Webpage로 만들어준다.
 
 **5. Lanyon테마로 웹사이트 테마 변경**
 - .zip파일로 테마를 적용했을 때 gem 중에 하나인 *jekyll-paginate*가 없어서 `jekyll serve`가 실행되지 않는 오류가 발생했습니다.   
-- 그래서 이 방법 대신 `git fork`로 Lanyon테마의 원격 저장소를 저의 원격 저장소로 fork했습니다
-  * `git clone`을 통해 로컬 저장소에 받아온 후 `_config.yml`의 내용을 변경하고 `_posts`폴더에 dummy 정보를 삭제하고 새로 .md파일을 만들었습니다
-  * `jekyll serve`로 테마와 웹사이트 변경 내용이 잘 적용된 것을 확인한 뒤, 원격 저장소에 반영했습니다
+
+
+- 그래서 이 방법 대신 `git fork`로 Lanyon테마의 원격 저장소를 저의 원격 저장소로 fork했습니다.
+  * `git clone`을 통해 로컬 저장소에 받아온 후 `_config.yml`의 내용을 변경하고 `_posts`폴더에 dummy 정보를 삭제하고 새로 .md파일을 만들었습니다.
+  * `jekyll serve`로 테마와 웹사이트 변경 내용이 잘 적용된 것을 확인한 뒤, 원격 저장소에 반영했습니다.
   * 원격 저장소 *setting* - *pages*에서 테마와 변경 사항이 똑같이 잘 적용된 것을 확인하여 Git Blog를 완성했습니다.
 
 ## Posts
 
-제 웹사이트의 기능은 Git Blog 만드는 방법을 정리하고 공유하기 위함이기 때문에 그와 관련된 2개의 포스트를 업로드했습니다
+제 웹사이트의 기능은 Git Blog 만드는 방법을 정리하고 공유하기 위함이기 때문에 그와 관련된 3개의 포스트를 업로드했습니다
 
 ### Welcome to Git Blog!
 
