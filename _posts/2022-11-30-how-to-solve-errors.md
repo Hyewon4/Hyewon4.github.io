@@ -7,7 +7,7 @@ title: "How To Solve Errors"
 <br/>
 **Bundler::GemNotFound오류**
 
-* bundle install
+* `bundle install`
 
 **사용자 이름이 한글일 때**
 
@@ -22,7 +22,7 @@ title: "How To Solve Errors"
 
 **LF will be replaced by CRLF the next time Git touches it**
 
-* git config --global core.autocrlf true
+* `git config --global core.autocrlf true`
 
 ## git push
 <br/>
@@ -30,4 +30,4 @@ title: "How To Solve Errors"
 **fatal: Could not read from remote repository**
 
 * 원격 저장소가 연결되지 않았을 때 발생
-* git remote add origin [git 저장소 url]
+* `git remote add origin [git 저장소 url]`
